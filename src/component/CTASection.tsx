@@ -12,7 +12,7 @@ const CTASection = () => {
           </h2>
           
           <p className="text-xl text-gray-300">
-            Let's create an unforgettable multilingual experience for your global audience. 
+            Lets create an unforgettable multilingual experience for your global audience. 
             Our experts are ready to help you plan and execute your next event.
           </p>
 

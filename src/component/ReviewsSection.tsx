@@ -38,7 +38,7 @@ const ReviewsSection = () => {
               {/* Review Content */}
               <div className="flex-1 text-center lg:text-left">
                 <blockquote className="text-white text-lg lg:text-xl mb-6 italic">
-                  "{review.text}"
+                  {review.text}
                 </blockquote>
                 
                 <div>
