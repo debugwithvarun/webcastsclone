@@ -28,9 +28,9 @@ const Navbar = () => {
                     <Image src="/logo.svg" alt="logo" width={50} height={50} />
                     <div className="flex gap-4 items-center p-2 ">
                         <div className="flex gap-4 max-md:hidden">
-                            <Link href="">Service</Link>
-                            <Link href="">Use Cases</Link>
-                            <Link href="">Platform</Link>
+                            <Link href="/services">Service</Link>
+                            <Link href="use-cases">Use Cases</Link>
+                            <Link href="https://www.streamcart.com/">Platform</Link>
                             <Link href="">Request a Quote</Link>
                         </div>
                         <div className="p-1 border-1 border-zinc-400">
