@@ -77,8 +77,8 @@ const UseCasesGrid = () => {
     }
   ];
 
-  const getCategoryColor = (category) => {
-    const colors = {
+  const getCategoryColor = (category: string) => {
+    const colors: Record<string, string> = {
       Healthcare: "bg-green-600/20 text-green-300",
       Corporate: "bg-blue-600/20 text-blue-300",
       Education: "bg-purple-600/20 text-purple-300",
